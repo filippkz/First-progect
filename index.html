@@ -14,75 +14,85 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
-      <header class="block__header">
-        <h2>User-friendly Control Panel</h2>
-      </header>
-      <div class="grid grid--1x2 container">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x" />
-          <source
-            type="image/pnj"
-            srcset="images/ipad.pnj 1x, images/ipad@2x.webp 2x" />
-          <img src="/images/ipad.png" alt=""
-        /></picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#snap"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy Start & manage Updates</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-                  dignissimos animi voluptatum repellat voluptate, vel
-                  temporibus laborum deserunt distinctio quos!
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Starting, Git & WP-CLI</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-                  dignissimos animi voluptatum repellat voluptate, vel
-                  temporibus laborum deserunt distinctio quos!
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-                  dignissimos animi voluptatum repellat voluptate, vel
-                  temporibus laborum deserunt distinctio quos!
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <footer class="block block--dark footer">
+      <div class="grid container footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">WordPress Hosting</a></li>
+              <li><a href="">Free Automated WordPress</a></li>
+              <li><a href="">Migrations</a></li>
+              <li><a href="">Domain Names</a></li>
+              <li><a href="">Monthly Web Hosting</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li>About</li>
+              <li>Affiliates</li>
+              <li>Blog</li>
+              <li>Careers</li>
+              <li>Comunity</li>
+              <li>News</li>
+              <li>Green Hosting</li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li>Contact</li>
+              <li>Knowledge Base</li>
+              <li>Forums</li>
+              <li>System Status</li>
+              <li>Web Hosting</li>
+              <li>DreamCompute</li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li>Domain Checker</li>
+              <li>Domain Transfer</li>
+              <li>Free Domain</li>
+              <li>XYZ Domain</li>
+              <li>Chep SSL Certificate</li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img src="/images/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright &copy 2020 mosh</p>
+        </section>
       </div>
-    </section>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
